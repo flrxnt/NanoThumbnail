@@ -16,6 +16,7 @@ export function showLanding() {
     // Hide history button, API button and close history panel on landing
     document.getElementById('historyBtn').classList.add('hidden');
     document.getElementById('apiBtn').classList.add('hidden');
+    document.getElementById('githubStarBtn').classList.add('hidden');
     views.history.classList.remove('open');
 }
 
@@ -28,6 +29,7 @@ export function startApp() {
         // Show history button and API button when in app view
         document.getElementById('historyBtn').classList.remove('hidden');
         document.getElementById('apiBtn').classList.remove('hidden');
+        document.getElementById('githubStarBtn').classList.remove('hidden');
         renderHistory();
     }
 }
@@ -77,6 +79,7 @@ export function loadHistoryImage(url, prompt) {
         views.app.classList.remove('hidden');
         document.getElementById('historyBtn').classList.remove('hidden');
         document.getElementById('apiBtn').classList.remove('hidden');
+        document.getElementById('githubStarBtn').classList.remove('hidden');
     }
     // Close history panel
     views.history.classList.remove('open');

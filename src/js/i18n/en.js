@@ -4,7 +4,8 @@ export const en = {
         description: "Generate viral thumbnails with AI"
     },
     header: {
-        api_btn: "API"
+        api_btn: "API",
+        github_star: "Star on GitHub"
     },
     landing: {
         hero_title: "Generate Viral<br>Thumbnails with AI",

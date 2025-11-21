@@ -4,7 +4,8 @@ export const fr = {
         description: "Générez des miniatures virales avec l'IA"
     },
     header: {
-        api_btn: "API"
+        api_btn: "API",
+        github_star: "Star sur GitHub"
     },
     landing: {
         hero_title: "Générez des miniatures<br>virales avec l'IA",

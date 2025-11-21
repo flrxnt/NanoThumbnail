@@ -1,5 +1,7 @@
 # NanoThumbnail
 
+> **Note:** This project is an experiment (intentionally simplistic) to test the **Gemini 3** model.
+
 NanoThumbnail is a free, open-source SaaS generator designed to create viral YouTube thumbnails using the power of AI. It leverages the **Google Nano Banana Pro** model via the Replicate API to transform simple prompts into high-quality, expressive images.
 
 ![NanoThumbnail Preview](image.webp)
@@ -19,6 +21,7 @@ NanoThumbnail is a free, open-source SaaS generator designed to create viral You
 -   **Bundler**: [Vite](https://vitejs.dev/)
 -   **Styling**: Custom CSS (Glassmorphism UI)
 -   **API**: [Replicate](https://replicate.com/)
+-   **CORS Proxy**: [corsproxy.io](https://corsproxy.io/) (Used to bypass CORS restrictions when fetching generated images client-side)
 
 ## Getting Started
 
